@@ -1,27 +1,35 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Heebo", sans-serif;
-	color: rgb(31, 31, 34);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  color: rgb(31, 31, 34);
+}
+
+p {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgba(255, 1, 158, 0.74), rgb(61, 0, 204));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container {
-	width: 100%;
-	height: 100vh;
-	background: rgb(217, 156, 253);
+  width: 100%;
+  height: 100vh;
+  background: rgb(245, 245, 245);
 }
 
 #letter-container {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #new-letter {
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-	padding-top: 65px;
-	font-size: 22em;
-	text-align: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding-top: 65px;
+  font-size: 22em;
+  text-align: center;
 }
