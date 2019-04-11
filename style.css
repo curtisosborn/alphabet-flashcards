@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Heebo:400,700"
-			rel="stylesheet"
-		/>
-		<title>Flashcards</title>
-	</head>
-	<body>
-		<div class="container">
-			<div id="letter-container">
-				<p id="new-letter">a</p>
-			</div>
-			<!-- <div id="button">New Letter</div> -->
-		</div>
-		<script src="app.js"></script>
-	</body>
-</html>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Heebo", sans-serif;
+	color: rgb(31, 31, 34);
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background: rgb(217, 156, 253);
+}
+
+#letter-container {
+	width: 100%;
+	height: 100%;
+}
+
+#new-letter {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	padding-top: 65px;
+	font-size: 22em;
+	text-align: center;
+}
